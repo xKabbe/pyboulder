@@ -1,0 +1,31 @@
+name: Test PyBoulder
+run-name: ${{ github.actor }} is testing 🧪 PyBoulder 💻
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  pyboulder-pytests:
+    name: PyBoulder Pytests 🧪
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.12"]
+    steps:
+      - name: Checkout Code 💻
+        uses: actions/checkout@v3
+      - name: Set Up Python ${{ matrix.python-version }} 🐍
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install Dependencies 📚
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
+      - name: Run PyBoulder Pytests 🏃
+        run: |
+          pytest
