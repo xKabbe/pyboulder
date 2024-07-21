@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Boulder-brightgreen?logo=python&label=Py&color=blue" height="130">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Boulder-brightgreen?logo=python&label=Py&color=blue" style="width: 527px; height: 130px;">
 </p>
 
 <p align="center">
