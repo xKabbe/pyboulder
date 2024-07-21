@@ -1,8 +1,33 @@
 # PyBoulder TODOs
 
+## Tutorials and Guides
+
+### Core Features
+
+- [OpenCV Python Tutorials](https://docs.opencv.org/master/d6/d00/tutorial_py_root.html)
+- [Google MediaPipe Documentation](https://google.github.io/mediapipe/)
+- [MediaPipe Pose Documentation](https://google.github.io/mediapipe/solutions/pose.html)
+- [Pose Estimation with MediaPipe](https://towardsdatascience.com/real-time-pose-estimation-using-mediapipe-31f379f4b65e)
+- [Real-Time Object Detection with OpenCV](https://realpython.com/face-detection-python-opencv/)
+- [MediaPipe Python API Reference](https://google.github.io/mediapipe/getting_started/python.html)
+- [Pose Estimation with OpenCV and Deep Learning](https://towardsdatascience.com/pose-estimation-with-opencv-and-deep-learning-7e01f9298748)
+
+### Additional Topics to Explore
+ -
+- [OpenPose Documentation](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+- [Pose Estimation with TensorFlow](https://www.tensorflow.org/lite/models/pose_estimation/overview)
+- [Optimizing OpenCV Performance](https://docs.opencv.org/4.x/d7/d00/tutorial_meanshift.html)
+- [Real-Time Video Processing Optimization](https://medium.com/swlh/real-time-video-processing-with-opencv-and-python-c9d134b8c9e0)
+- [Machine Learning with TensorFlow and Pose Data](https://www.tensorflow.org/guide)
+- [Keras Tutorial on Pose Classification](https://keras.io/guides/transfer_learning/)
+- [Matplotlib Documentation](https://matplotlib.org/stable/contents.html)
+- [Plotly Documentation](https://plotly.com/python/)
+- [Multi-Camera Synchronization Tutorial](https://medium.com/@ayushprajapati_/multi-camera-setup-in-computer-vision-8fd0f7e97e9e)
+- [Synchronizing Multiple Cameras with OpenCV](https://docs.opencv.org/master/d7/dc8/tutorial_py_table_of_contents_video.html)
+
 ## Project Roadmap
 
-### Phase 1: Initial Setup and Basic Functionaliy
+### Phase 1: Initial Setup and Basic Functionality
 
 - Project Initialization
   - [ ] Set up project structure
@@ -48,7 +73,7 @@
   - [ ] Train models on collected pose data to predict performance
 - Multiple Camera Support
   - [ ] Implement support for multiple video inputs
-  - [ ] Synchronize and analyze data from mutliple cameras
+  - [ ] Synchronize and analyze data from multiple cameras
 - User Profiles and Progress Tracking
   - [ ] Implement user profile management
   - [ ] Track and visualize user progress over time
@@ -58,10 +83,10 @@
 - Comprehensive Testing and Bug Fixing
   - [ ] Conduct extensive testing and fix any bugs
   - [ ] Ensure all features work seamlessly (test campaign)
-- Documentation
+- Final Documentation
   - [ ] Write detailed documentation for users and developers (if not already happened)
   - [ ] Include usage guides, API documentation and setup instructions (if not already happened)
-- Deployment
+- Final Deployment
   - [ ] Prepare the project for deployment
   - [ ] Consider packaging the project as a standalone application
 
