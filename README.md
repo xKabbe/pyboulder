@@ -1,4 +1,34 @@
-# PyBoulder
+<p align="center">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Boulder-brightgreen?logo=python&label=Py&color=blue" height="130">
+</p>
+
+<p align="center">
+   <a href="https://www.python.org/">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/badge/3.12-555555?logo=python&label=Python&color=44cc11" /></a>
+   <a href="https://github.com/xKabbe/pyboulder/blob/master/LICENSE">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/license/xKabbe/pyboulder?label=License&color=yellow" /></a>
+   <a href="https://github.com/xKabbe/pyboulder/pulse">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/commit-activity/m/xKabbe/pyboulder?label=Commit%20Activity&color=red" /></a>
+   <a href="https://github.com/xKabbe/pyboulder/issues?q=is%3Aissue+is%3Aopen+">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/pyboulder?query=is%3Aopen&label=Open%20Issues&color=yellow"></a>
+   <a href="https://github.com/xKabbe/pyboulder/issues?q=is%3Aissue+is%3Aclosed">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/pyboulder?query=is%3Aclosed&label=Closed%20Issues&color=red"></a>
+   <a href="https://github.com/xKabbe/pyboulder/actions">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/actions/workflow/status/xKabbe/pyboulder/test_pyboulder.yml?logo=github&label=Tests"></a>
+</p>
+
+<p align="center">
+   <a href="https://github.com/xKabbe/pyboulder/milestone/1">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/1"></a>
+   <a href="https://github.com/xKabbe/pyboulder/milestone/2">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/2"></a>
+   <a href="https://github.com/xKabbe/pyboulder/milestone/3">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/3"></a>
+   <a href="https://github.com/xKabbe/pyboulder/milestone/4">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/4"></a>
+   <a href="https://github.com/xKabbe/pyboulder/milestone/5">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/5"></a>
+</p>
 
 `PyBoulder` is an open-source tool designed for analyzing and improving bouldering techniques through video analysis.
 The project leverages computer vision and pose detection technologies to provide valuable insights into climbing movements.
