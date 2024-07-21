@@ -10,11 +10,13 @@
    <a href="https://github.com/xKabbe/pyboulder/pulse">
       <img alt="ShieldsIO Badge" src="https://img.shields.io/github/commit-activity/m/xKabbe/pyboulder?label=Commit%20Activity&color=red" /></a>
    <a href="https://github.com/xKabbe/pyboulder/issues?q=is%3Aissue+is%3Aopen+">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/pyboulder?query=is%3Aopen&label=Open%20Issues&color=yellow"></a>
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/pyboulder?query=is%3Aissue%20is%3Aopen&label=Open%20Issues&color=yellow"></a>
    <a href="https://github.com/xKabbe/pyboulder/issues?q=is%3Aissue+is%3Aclosed">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/pyboulder?query=is%3Aclosed&label=Closed%20Issues&color=red"></a>
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/pyboulder?query=is%3Aissue%20is%3Aclosed&label=Closed%20Issues&color=red"></a>
    <a href="https://github.com/xKabbe/pyboulder/actions">
       <img alt="ShieldsIO Badge" src="https://img.shields.io/github/actions/workflow/status/xKabbe/pyboulder/test_pyboulder.yml?logo=github&label=Tests"></a>
+   <a href="https://app.codecov.io/github/xKabbe/pyboulder">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/codecov/c/github/xKabbe/pyboulder?logo=codecov&label=Codecov%20Coverage"></a>
 </p>
 
 <p align="center">
