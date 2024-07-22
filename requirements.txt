@@ -1,7 +1,4 @@
 opencv-python==4.10.0.84
 mediapipe==0.10.14
 numpy==2.0.0
-pyqt5==5.15.11
-qdarkstyle==3.2.3
-
-pyqtgraph==0.13.7
+fastapi==0.111.1
