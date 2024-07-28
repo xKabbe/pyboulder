@@ -39,7 +39,7 @@ venv.bak/
 *.tsbuildinfo
 next-env.d.ts
 
-# output and coverage
+# Output and coverage
 out/
 coverage/
 
@@ -148,7 +148,8 @@ dmypy.json
 # Pyre
 .pyre/
 
-# Temporary files
+# Temporary files and folder
+temp/
 *.temp
 *.tmp
 

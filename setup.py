@@ -14,13 +14,13 @@ setup(
     author='Steven Karbjinsky',
     author_email='steven.karbjinsky@web.de',
     url='https://github.com/xKabbe/sscendify',
-    packages=find_packages(where='api'),
-    package_dir={'': 'api'},
+    packages=find_packages(),
+    package_dir={},
     include_package_data=True,
     python_requires='>=3.12',
     entry_points={
         'console_scripts': [
-            'ascendify-api=api.main:main',
+            'ascendify-init-db=setup.setup_database_schema:main',
         ],
     },
 )

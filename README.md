@@ -2,6 +2,7 @@
     <img alt="Static Badge" src="https://img.shields.io/badge/Ascendify-blue" style="width: 425px; height: 130px;">
 </p>
 
+# TODO: Add frontend badges (node.js with version, next.js, react, typescript and javascript, robot (if implemented), fastapi, mkdocs and maybe other stuff for the frontend)
 <p align="center">
    <a href="https://www.python.org/">
       <img alt="ShieldsIO Badge" src="https://img.shields.io/badge/3.12-555555?logo=python&label=Python&color=44cc11" /></a>
@@ -46,20 +47,32 @@ Whether you're a climber looking to refine your technique or a coach seeking to 
 
 ## Getting Started
 
+# TODO: Add frontend prerequisited (node.js, pnpm, etc.)
 ### Prerequisites
 
 Before you begin, ensure you have the following prerequisites installed:
 
+- [Node.js](https://nodejs.org/en/download/package-manager)
 - [Python 3.12](https://www.python.org/downloads/release/python-3120/) (if running locally without Docker) - Programming language
 - [pip](https://pip.pypa.io/en/stable/) - Python package manager
 
-### Installation
+Clone the repository to your local machine:
 
-1. Clone the repository to your local machine:
+```shell
+git clone https://github.com/xKabbe/ascendify.git
+```
+
+### Frontend `app` Installation
+
+1. Install the project's packages
+
    ```shell
-   git clone https://github.com/xKabbe/ascendify.git
+   pnpm i
    ```
-2. Set up and activate a virtual environment:
+
+### Backend `api` Installation
+
+1. Set up and activate a virtual environment:
 
    ```shell
    # On linux
@@ -71,31 +84,49 @@ Before you begin, ensure you have the following prerequisites installed:
    source path/to/venv/Scripts/activate
    ```
 
-3. Install project in `editable` mode:
+2. Install project in `editable` mode:
+
    ```shell
    pip install -e .
    ```
-4. Install the production required dependencies:
+
+3. Install the production required dependencies:
+
    ```shell
    pip install -r requirements.txt
    ```
-5. Install the testing required dependencies:
+
+4. Install the testing required dependencies:
+
    ```shell
    pip install -r requirements-dev.txt
    ```
 
+5. Initialize the backend SQLite database
+
+   ```shell
+   ascendify-init-db
+   ```
+
 ### Usage
 
-#### Running Application
+#### Running Frontend `app`
 
 To run `Ascendify`, use the following command:
 
 ```shell
-ascendify
+pnpm dev
 ```
 
 This will start the application and allow you to load and analyze climbing videos.
 
+#### Running Backend `api`
+
+```shell
+fastapi dev api/main.py
+```
+
+# TODO: Add frontend tests + description and backend tests + description and robot tests + description
 #### Running Tests
 
 `Ascendify` uses [pytest](https://docs.pytest.org/en/8.2.x/) for testing. Here are some common commands:
