@@ -1,24 +1,26 @@
 """
 File: setup.py
 Author: Steven "Kabbe" Karbjinsky
-Description: Setup configuration for the PyBoulder project.
+Description: Setup configuration for the Ascendify project.
 
-For more information, see: https://github.com/xKabbe/pyboulder
+For more information, see: https://github.com/xKabbe/ascendify
 """
 from setuptools import setup, find_packages
 
 setup(
-    name='pyboulder',
+    name='ascendify-api',
     version="0.1.0",
-    packages=find_packages(),
-    include_package_data=True,
-    python_requires='>=3.12',
+    description='API backend for the Ascendify project, using FastAPI for video and data analysis.',
     author='Steven Karbjinsky',
     author_email='steven.karbjinsky@web.de',
-    url='https://github.com/xKabbe/pyboulder',
+    url='https://github.com/xKabbe/sscendify',
+    packages=find_packages(),
+    package_dir={},
+    include_package_data=True,
+    python_requires='>=3.12',
     entry_points={
         'console_scripts': [
-            'pyboulder=pyboulder.main:main',
+            'ascendify-init-db=setup.setup_database_schema:main',
         ],
     },
 )

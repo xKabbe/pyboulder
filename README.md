@@ -1,38 +1,41 @@
 <p align="center">
-    <img alt="Static Badge" src="https://img.shields.io/badge/Boulder-brightgreen?logo=python&label=Py&color=blue" style="width: 527px; height: 130px;">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Ascendify-blue" style="width: 425px; height: 130px;">
 </p>
 
+# TODO: Add frontend badges (node.js with version, next.js, react, typescript and javascript, robot (if implemented), fastapi, mkdocs and maybe other stuff for the frontend)
 <p align="center">
    <a href="https://www.python.org/">
       <img alt="ShieldsIO Badge" src="https://img.shields.io/badge/3.12-555555?logo=python&label=Python&color=44cc11" /></a>
-   <a href="https://github.com/xKabbe/pyboulder/blob/master/LICENSE">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/license/xKabbe/pyboulder?label=License&color=yellow" /></a>
-   <a href="https://github.com/xKabbe/pyboulder/pulse">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/commit-activity/m/xKabbe/pyboulder?label=Commit%20Activity&color=red" /></a>
-   <a href="https://github.com/xKabbe/pyboulder/issues?q=is%3Aissue+is%3Aopen+">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/pyboulder?query=is%3Aopen&label=Open%20Issues&color=yellow"></a>
-   <a href="https://github.com/xKabbe/pyboulder/issues?q=is%3Aissue+is%3Aclosed">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/pyboulder?query=is%3Aclosed&label=Closed%20Issues&color=red"></a>
-   <a href="https://github.com/xKabbe/pyboulder/actions">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/actions/workflow/status/xKabbe/pyboulder/test_pyboulder.yml?logo=github&label=Tests"></a>
+   <a href="https://github.com/xKabbe/ascendify/blob/master/LICENSE">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/license/xKabbe/ascendify?label=License&color=yellow" /></a>
+   <a href="https://github.com/xKabbe/ascendify/pulse">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/commit-activity/m/xKabbe/ascendify?label=Commit%20Activity&color=red" /></a>
+   <a href="https://github.com/xKabbe/ascendify/issues?q=is%3Aissue+is%3Aopen+">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/ascendify?query=is%3Aissue%20is%3Aopen&label=Open%20Issues&color=yellow"></a>
+   <a href="https://github.com/xKabbe/ascendify/issues?q=is%3Aissue+is%3Aclosed">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/issues-search/xKabbe/ascendify?query=is%3Aissue%20is%3Aclosed&label=Closed%20Issues&color=red"></a>
+   <a href="https://github.com/xKabbe/ascendify/actions">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/actions/workflow/status/xKabbe/ascendify/test_ascendify.yml?logo=github&label=Tests"></a>
+   <a href="https://app.codecov.io/github/xKabbe/ascendify">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/codecov/c/github/xKabbe/ascendify?logo=codecov&label=Codecov%20Coverage"></a>
 </p>
 
 <p align="center">
-   <a href="https://github.com/xKabbe/pyboulder/milestone/1">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/1"></a>
-   <a href="https://github.com/xKabbe/pyboulder/milestone/2">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/2"></a>
-   <a href="https://github.com/xKabbe/pyboulder/milestone/3">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/3"></a>
-   <a href="https://github.com/xKabbe/pyboulder/milestone/4">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/4"></a>
-   <a href="https://github.com/xKabbe/pyboulder/milestone/5">
-      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/pyboulder/5"></a>
+   <a href="https://github.com/xKabbe/ascendify/milestone/1">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/ascendify/1"></a>
+   <a href="https://github.com/xKabbe/ascendify/milestone/2">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/ascendify/2"></a>
+   <a href="https://github.com/xKabbe/ascendify/milestone/3">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/ascendify/3"></a>
+   <a href="https://github.com/xKabbe/ascendify/milestone/4">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/ascendify/4"></a>
+   <a href="https://github.com/xKabbe/ascendify/milestone/5">
+      <img alt="ShieldsIO Badge" src="https://img.shields.io/github/milestones/progress-percent/xKabbe/ascendify/5"></a>
 </p>
 
-`PyBoulder` is an open-source tool designed for analyzing and improving bouldering techniques through video analysis.
+`Ascendify` is an open-source tool designed for analyzing and improving bouldering techniques through video analysis.
 The project leverages computer vision and pose detection technologies to provide valuable insights into climbing movements.
-Whether you're a climber looking to refine your technique or a coach seeking to assess performance, `PyBoulder` offers an easy-to-use interface and detailed metrics to help you achieve your goals.
+Whether you're a climber looking to refine your technique or a coach seeking to assess performance, `Ascendify` offers an easy-to-use interface and detailed metrics to help you achieve your goals.
 
 ## Features
 
@@ -44,57 +47,89 @@ Whether you're a climber looking to refine your technique or a coach seeking to 
 
 ## Getting Started
 
+# TODO: Add frontend prerequisited (node.js, pnpm, etc.)
 ### Prerequisites
 
 Before you begin, ensure you have the following prerequisites installed:
 
+- [Node.js](https://nodejs.org/en/download/package-manager)
 - [Python 3.12](https://www.python.org/downloads/release/python-3120/) (if running locally without Docker) - Programming language
 - [pip](https://pip.pypa.io/en/stable/) - Python package manager
 
-### Installation
+Clone the repository to your local machine:
 
-1. Clone the repository to your local machine:
-    ```shell
-    git clone https://github.com/xKabbe/pyboulder.git
-    ```
-2. Set up and activate a virtual environment:
-    ```shell
-    # On linux
-    python -m venv path/to/venv
-    source path/to/venv/bin/activate
-    
-    # On windows
-    python -m venv path/to/venv
-    source path/to/venv/Scripts/activate
-    ```
-3. Install project in `editable` mode:
-    ```shell
-    pip install -e .
-    ```
-4. Install the production required dependencies:
-    ```shell
-    pip install -r requirements.txt
-    ```
-5. Install the testing required dependencies:
-    ```shell
-    pip install -r requirements-dev.txt
-    ```
+```shell
+git clone https://github.com/xKabbe/ascendify.git
+```
+
+### Frontend `app` Installation
+
+1. Install the project's packages
+
+   ```shell
+   pnpm i
+   ```
+
+### Backend `api` Installation
+
+1. Set up and activate a virtual environment:
+
+   ```shell
+   # On linux
+   python -m venv path/to/venv
+   source path/to/venv/bin/activate
+
+   # On windows
+   python -m venv path/to/venv
+   source path/to/venv/Scripts/activate
+   ```
+
+2. Install project in `editable` mode:
+
+   ```shell
+   pip install -e .
+   ```
+
+3. Install the production required dependencies:
+
+   ```shell
+   pip install -r requirements.txt
+   ```
+
+4. Install the testing required dependencies:
+
+   ```shell
+   pip install -r requirements-dev.txt
+   ```
+
+5. Initialize the backend SQLite database
+
+   ```shell
+   ascendify-init-db
+   ```
 
 ### Usage
 
-#### Running Application
+#### Running Frontend `app`
 
-To run `PyBoulder`, use the following command:
+To run `Ascendify`, use the following command:
 
 ```shell
-pyboulder
+pnpm dev
 ```
 
 This will start the application and allow you to load and analyze climbing videos.
 
+#### Running Backend `api`
+
+```shell
+fastapi dev api/main.py
+```
+
+# TODO: Add frontend tests + description and backend tests + description and robot tests + description
 #### Running Tests
 
-`PyBoulder` uses [pytest](https://docs.pytest.org/en/8.2.x/) for testing. Here are some common commands:
+`Ascendify` uses [pytest](https://docs.pytest.org/en/8.2.x/) for testing. Here are some common commands:
 
 | Command                          | Description                                                              |
 |----------------------------------|--------------------------------------------------------------------------|
@@ -114,7 +149,7 @@ This will start the application and allow you to load and analyze climbing video
 
 #### MkDocs Documentation
 
-`PyBoulder` uses [MkDocs](https://www.mkdocs.org) for documentation. Here are some common commands:
+`Ascendify` uses [MkDocs](https://www.mkdocs.org) for documentation. Here are some common commands:
 
 | Command        | Description                                                                                                                                                                                                                                   |
 |----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

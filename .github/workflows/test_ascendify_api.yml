@@ -1,5 +1,5 @@
-name: Test PyBoulder
-run-name: ${{ github.actor }} is testing 🧪 PyBoulder 💻
+name: Test Ascendify API
+run-name: ${{ github.actor }} is testing 🧪 Ascendify API 💻
 
 on:
   push:
@@ -8,8 +8,8 @@ on:
   pull_request:
 
 jobs:
-  pyboulder-pytests:
-    name: PyBoulder Pytests 🧪
+  ascendify-api-pytests:
+    name: Ascendify API Pytests 🧪
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -26,9 +26,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install -r requirements-dev.txt
-      - name: Run PyBoulder Pytests 🏃
+      - name: Run Ascendify API Pytests 🏃
         run: |
-          pytest --cov=pyboulder --cov-report=xml
+          pytest --cov=api --cov-report=xml
       - name: Upload Coverage Reports To Codecov 📡
         uses: codecov/codecov-action@v4.0.1
         with:
